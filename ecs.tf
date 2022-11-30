@@ -1,5 +1,5 @@
 resource "aws_ecs_cluster" "ECSCluster" {
-  name = "cluster-us-e2-dev-pictory-api"
+  name = "cluster-us-e2-dev-pictory-api-22"
 }
 data "template_file" "json-asset_search" {
   template = file("json_file_for_ecs/asset-search.json")
