@@ -1,7 +1,7 @@
 [
     {
       "name":"asset-search-container",
-      "image":"asset_search-img",
+      "image":"${asset_search-img}",
       "entryPoint": [],
       "environment": [{"name": "dev"}],
       "essential": true,
