@@ -8,7 +8,7 @@ resource "aws_cloudtrail" "cloud-trail-resource" {
 }
 
 resource "aws_s3_bucket" "policy1" {
-  bucket        = "cloudtrail-bucket-log-pictory-dev"
+  bucket        = "cloudtrail-bucket-log-pictory-poc"
   force_destroy = true
 }
 
